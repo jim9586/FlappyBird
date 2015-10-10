@@ -9,7 +9,7 @@ var mainState = {
         game.load.image('pipe', 'assets/pipe.png'); 
 
         // Load the jump sound
-        game.load.audio('jump', 'assets/jump.wav');     
+        // game.load.audio('jump', 'assets/jump.wav');     
     },
 
     create: function() { 
