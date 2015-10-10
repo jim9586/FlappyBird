@@ -239,10 +239,10 @@ Scoreboard.prototype.show = function(score) {
 
   this.bestText.setText(bestScore.toString());
 
-  if(score >= 10 && score < 20)
+  if(score >= 5 && score < 15)
   {
     coin = this.game.add.sprite(-65 , 7, 'medals', 1);
-  } else if(score >= 20) {
+  } else if(score >= 15) {
     coin = this.game.add.sprite(-65 , 7, 'medals', 0);
   }
 
