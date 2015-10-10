@@ -329,7 +329,7 @@ Menu.prototype = {
     // add the ground sprite as a tile
     // and start scrolling in the negative x direction
     this.ground = this.game.add.tileSprite(0,400, 335,112,'ground');
-    this.ground.autoScroll(-200,0);
+    this.ground.autoScroll(-100,0);
 
     /** STEP 1 **/
     // create a group to put the title assets in 
